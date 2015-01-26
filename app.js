@@ -7,7 +7,7 @@ window.onload = function() {
    var serverResponse;
    var demoUrls = {
     "New Account": "http://172.31.1.19/mobilesdk/api/mobileid?xCropImage=True",
-	"Check Deposit": "http://63.110.241.79/mobilesdk/api/checkdeposit1_1?customer=kofax&processimage=true",
+	"Check Deposit": "http://mobiledemo.kofax.com/mobilesdk/api/checkdeposit1_1?customer=kofax&processimage=true",
     
   };
    var select = document.getElementById('demoSelect');
